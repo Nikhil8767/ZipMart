@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ZipMartApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(ZipMartApplication.class, args);
+		System.out.println("working");
 	}
 
 }
